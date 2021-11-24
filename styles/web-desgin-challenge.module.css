@@ -1,0 +1,86 @@
+.background {
+    background-image: url('/images/web-desgin-challenge/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: hsl(225, 100%, 94%);
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHolder {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+}
+
+.card {
+    max-width: 450px;
+}
+
+.bodyHeader {
+    text-align: center;
+    font-weight: 900;
+    color: Dark hsl(223, 47%, 23%)
+}
+
+.bodyPara {
+    color: hsl(224, 23%, 55%);
+}
+
+.bodyPlanCard {
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.bodyPlanName {
+    font-weight: 900;
+    color: Dark hsl(223, 47%, 23%)
+}
+
+.bodyPlanPrice {
+    color: hsl(224, 23%, 55%);
+}
+
+.bodyPlanChange a {
+    color: hsl(245, 75%, 52%) !important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.bodyProceed button{
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: hsl(245, 75%, 52%) 1.95px 1.95px 2.6px;
+    padding: 12px !important;
+    font-weight: 700;
+}
+
+.bodyCancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+@media (max-width: 375px) {
+    .cardHolder {
+        margin: 0px 10px;
+    }
+    .background {
+        background-image: none;
+    }
+    .cardHeader img {
+        width: 100%;
+    }
+    .bodyHeader {
+        font-size: 1.5rem;
+    }
+    .cardBody {
+        padding: 0px 1rem !important;
+    }
+}
