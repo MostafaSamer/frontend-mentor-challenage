@@ -46,6 +46,18 @@
 
 .bodyButton button {
     border: 1px hsl(0, 0%, 95%) solid;
+    background-color: hsl(0, 0%, 95%) solid;
+    color: transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.cardBody1 button { color: hsl(31, 77%, 52%);  }
+.cardBody2 button { color: hsl(184, 100%, 22%); }
+.cardBody3 button { color: hsl(179, 100%, 13%); }
+
+.bodyButton button:hover {
+    border: 1px hsl(0, 0%, 95%) solid;
     background-color: transparent;
     color: hsl(0, 0%, 95%);
     padding: 10px 30px;

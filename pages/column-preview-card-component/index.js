@@ -23,7 +23,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyHeader + " mt-5"}>SEDRNS</div>
+                                        <div className={styles.bodyHeader + " mt-4"}>SEDRNS</div>
                                     </div>
                                     <div className="row">
                                         <div className={styles.bodyParag + " mt-4 mb-5"}>
@@ -35,7 +35,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyButton + " mt-5 mb-3"}>
+                                        <div className={styles.bodyButton + " mt-4 mb-3"}>
                                             <button>Learn More</button>
                                         </div>
                                     </div>
@@ -49,7 +49,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyHeader + " mt-5"}>SUVS</div>
+                                        <div className={styles.bodyHeader + " mt-4"}>SUVS</div>
                                     </div>
                                     <div className="row">
                                         <div className={styles.bodyParag + " mt-4 mb-5"}>
@@ -61,7 +61,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyButton + " mt-5 mb-3"}>
+                                        <div className={styles.bodyButton + " mt-4 mb-3"}>
                                             <button>Learn More</button>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyHeader + " mt-5"}>LUXURV</div>
+                                        <div className={styles.bodyHeader + " mt-4"}>LUXURV</div>
                                     </div>
                                     <div className="row">
                                         <div className={styles.bodyParag + " mt-4 mb-5"}>
@@ -87,7 +87,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyButton + " mt-5 mb-3"}>
+                                        <div className={styles.bodyButton + " mt-4 mb-3"}>
                                             <button>Learn More</button>
                                         </div>
                                     </div>
