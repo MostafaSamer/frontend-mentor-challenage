@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100vh !important;
+    padding-bottom: 100vh !important;
 }
 
 .cardHolder {
