@@ -1,0 +1,17 @@
+.background {
+    background-color: white;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHolder {
+    border-radius: 20px;
+    overflow: hidden;
+    /* font-family: 'Red Hat Display', sans-serif; */
+}
+
+.card {
+    max-width: 450px;
+}
