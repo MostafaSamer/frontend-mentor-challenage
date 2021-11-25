@@ -18,7 +18,7 @@ const WebDesginChallenge = function () {
                             <div className="col-md-4 col-12 p-0">
                                 <div className={styles.cardBody + " " + styles.cardBody1}>
                                     <div className="row">
-                                        <div className={styles.bodyIcon + " mt-5"}>
+                                        <div className={styles.bodyIcon + " mt-4"}>
                                             <img src="/images/column-preview-card-component/icon-sedans.svg"/>
                                         </div>
                                     </div>
@@ -35,7 +35,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyButton + " mt-5 mb-4"}>
+                                        <div className={styles.bodyButton + " mt-5 mb-3"}>
                                             <button>Learn More</button>
                                         </div>
                                     </div>
@@ -44,7 +44,7 @@ const WebDesginChallenge = function () {
                             <div className="col-md-4 col-12 p-0">
                                 <div className={styles.cardBody + " " + styles.cardBody2}>
                                     <div className="row">
-                                        <div className={styles.bodyIcon + " mt-5"}>
+                                        <div className={styles.bodyIcon + " mt-4"}>
                                             <img src="/images/column-preview-card-component/icon-suvs.svg"/>
                                         </div>
                                     </div>
@@ -61,7 +61,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyButton + " mt-5 mb-4"}>
+                                        <div className={styles.bodyButton + " mt-5 mb-3"}>
                                             <button>Learn More</button>
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@ const WebDesginChallenge = function () {
                             <div className="col-md-4 col-12 p-0">
                                 <div className={styles.cardBody + " " + styles.cardBody3}>
                                     <div className="row">
-                                        <div className={styles.bodyIcon + " mt-5"}>
+                                        <div className={styles.bodyIcon + " mt-4"}>
                                             <img src="/images/column-preview-card-component/icon-luxury.svg"/>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className={styles.bodyButton + " mt-5 mb-4"}>
+                                        <div className={styles.bodyButton + " mt-5 mb-3"}>
                                             <button>Learn More</button>
                                         </div>
                                     </div>
