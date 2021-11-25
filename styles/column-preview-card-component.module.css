@@ -4,8 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100vh !important;
-    padding-bottom: 100vh !important;
 }
 
 .cardHolder {
@@ -52,4 +50,11 @@
     color: hsl(0, 0%, 95%);
     padding: 10px 30px;
     border-radius: 20px;
+}
+
+@media (max-width: 993px) {
+    .background {
+        padding-top: 100vh !important;
+        padding-bottom: 100vh !important;
+    }
 }
