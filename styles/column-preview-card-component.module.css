@@ -1,5 +1,5 @@
 .background {
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     height: 100% !important;
     display: flex;
     justify-content: center;
@@ -7,11 +7,47 @@
 }
 
 .cardHolder {
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
-    /* font-family: 'Red Hat Display', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin: 0px 20px;
 }
 
 .card {
-    max-width: 450px;
+    max-width: 1080px;
+    color: hsl(0, 0%, 95%);
+}
+
+.cardBody {
+    min-width: 365px;
+    padding: 30px 95px;
+}
+
+.cardBody1 { background-color: hsl(31, 77%, 52%);  }
+.cardBody2 { background-color: hsl(184, 100%, 22%); }
+.cardBody3 { background-color: hsl(179, 100%, 13%); }
+
+/* .bodyButton {
+    margin-bottom: 30px;
+} */
+
+.bodyHeader {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.bodyParag {
+    font-size: 15px;
+    line-height: 2;
+    opacity: .5;
+}
+
+.bodyButton button {
+    border: 1px hsl(0, 0%, 95%) solid;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    padding: 10px 30px;
+    border-radius: 20px;
 }
