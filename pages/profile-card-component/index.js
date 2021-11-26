@@ -12,6 +12,8 @@ const WebDesginChallenge = function () {
                 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
             </Head>
             <div className={styles.background}>
+                <div className={styles.background1}><img src="/images/profile-card-component/bg-pattern-top.svg"/></div>
+                <div className={styles.background2}><img src="/images/profile-card-component/bg-pattern-bottom.svg"/></div>
                 <div className={styles.cardHolder}>
                     <div className={styles.card + " d-flex"}>
                         <div className={styles.cardBody}>
