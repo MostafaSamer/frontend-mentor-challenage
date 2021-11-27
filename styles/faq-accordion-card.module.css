@@ -4,11 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .cardHolder {
     overflow: hidden;
-    font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     margin: 0px 20px;
     background-color: white;
@@ -28,15 +28,33 @@
     width: 100%;
 }
 
+.bodyHeader h2 {
+    font-weight: 700 !important;
+}
+
+.bodyDropdownHolder {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
 .bodyDropdown {
     
 }
 
-.bodyDropdownActive
-
 .bodyQuestion {
     display: flex;
     justify-content: space-between;
+}
+
+.bodyQuestion:hover {
+    cursor: pointer;
+}
+
+.bodyQuestion:first-child:hover {
+    color:  hsl(14, 88%, 65%);
+}
+
+.bodyQuestionSelected {
+    font-weight: 700 !important;
 }
 
 .bodyQuestionArrow {
@@ -45,4 +63,39 @@
 
 .bodyQuestionArrowFiliped {
     transform: rotate(180deg);
+}
+
+.bodyAnswerShow,
+.bodyAnswerHide {
+    overflow: hidden;
+}
+
+.bodyAnswerShow {
+    height: 100%;
+    display: block;
+    animation: wipe-open 3s 1;
+}
+
+.bodyAnswerHide {
+    height: 0%;
+    display: none;
+    animation: wipe-close 3s 1;
+}
+
+@keyframes wipe-open {
+	0% {
+		height: 0%;
+	}
+	50% {
+        height: 100%;
+	}
+}
+
+@keyframes wipe-close {
+	0% {
+        height: 100%;
+	}
+	50% {
+        height: 0%;
+	}
 }
