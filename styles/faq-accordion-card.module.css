@@ -18,3 +18,31 @@
 .card {
     max-width: 1080px;
 }
+
+.imgHolder{
+    width: 480px;
+}
+
+.imgHolder img {
+    position: absolute;
+    width: 100%;
+}
+
+.bodyDropdown {
+    
+}
+
+.bodyDropdownActive
+
+.bodyQuestion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodyQuestionArrow {
+    transform: rotate(0deg);
+}
+
+.bodyQuestionArrowFiliped {
+    transform: rotate(180deg);
+}
