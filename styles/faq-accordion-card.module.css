@@ -32,12 +32,16 @@
     align-items: center;
 }
 
+.img1 {
+    margin-left: -20%;
+}
+
 .img2 {
     margin-left: -20%;
 }
 
 .img3 {
-    margin-left: -33%;
+    margin-left: -35%;
     width: 13% !important;
     top: 45%;
     position: absolute;
@@ -110,9 +114,36 @@
     animation: wipe-close 3s 1;
 }
 
+.displayMobile {
+    display: none;
+}
+
+.imgHolderMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -36%;
+}
+
+.img3Mobile {
+    width: 28%;
+    margin-top: 100px;
+    left: 48px;
+}
+
 @media (max-width: 993px) {
+    .displayMobile {
+        display: block;
+        position: absolute;
+        width: 65%;
+    }
+
+    .displayDesktop {
+        display: none;
+    }
+
     .leftSide {
-        padding: 82px 15px;
+        padding: 40px 15px;
         padding-top: 140px;
     }
 
