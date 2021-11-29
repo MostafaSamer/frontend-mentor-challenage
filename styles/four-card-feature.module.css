@@ -1,0 +1,30 @@
+.background {
+    background-color: hsl(0, 0%, 98%);
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topText {
+
+}
+
+.header1 {
+    font-size: 34px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%)
+}
+
+.header2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%)
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
