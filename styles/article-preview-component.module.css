@@ -1,0 +1,19 @@
+.background {
+    background-color: hsl(0, 0%, 95%);
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHolder {
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+
+.card {
+    max-width: 1080px;
+}
