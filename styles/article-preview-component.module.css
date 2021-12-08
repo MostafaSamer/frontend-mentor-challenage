@@ -1,19 +1,46 @@
 .background {
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(210, 46%, 95%);
     height: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Manrope', sans-serif;
 }
 
 .cardHolder {
     border-radius: 10px;
     overflow: hidden;
-    font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     margin: 0px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 55%;
 }
 
 .card {
-    max-width: 1080px;
+}
+
+.imageHolder img{
+    width: 100%;
+}
+
+.sectionHolder {
+    padding: 40px 50px;
+    background-color: white;
+    height: 100%;
+}
+
+.sectionHeader {
+
+}
+
+.sectionHeader h5{
+    font-weight: 700 !important;
+    line-height: 1.5;
+    color: hsl(217, 19%, 35%)
+}
+
+.sectionPara p {
+    font-size: 13px;
+    color: hsl(214, 17%, 51%);
+
 }
