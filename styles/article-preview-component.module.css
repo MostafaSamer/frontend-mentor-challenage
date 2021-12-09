@@ -19,8 +19,12 @@
 .card {
 }
 
+.imageHolder {
+    max-height: 528px;
+}
+
 .imageHolder img{
-    width: 100%;
+    width: 110%;
 }
 
 .sectionHolder {
@@ -42,5 +46,13 @@
 .sectionPara p {
     font-size: 13px;
     color: hsl(214, 17%, 51%);
+}
 
+.authSection {
+    
+}
+
+.authImageHolder img{
+    width: 100%;
+    border-radius: 50%;
 }
