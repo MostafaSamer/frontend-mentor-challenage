@@ -37,8 +37,20 @@ const WebDesginChallenge = function () {
                                         </div>
                                     </div>
                                     <div className="row m-0">
-                                        <div className={styles.authSection}>
-                                            AUTH SECTION
+                                        <div className={styles.authSection + " mt-3"}>
+                                            <div className='row'>
+                                                <div className='col-3'>
+                                                    <div className={styles.authImageHolder}>
+                                                        <img src="/images/article-preview-component/avatar-michelle.jpg"/>
+                                                    </div>
+                                                </div>
+                                                <div className='col-6'>
+                                                    INFO
+                                                </div>
+                                                <div className='col-3'>
+                                                    Share Button
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
