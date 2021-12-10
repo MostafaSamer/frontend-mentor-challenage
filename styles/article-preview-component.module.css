@@ -13,7 +13,7 @@
     font-weight: 400;
     margin: 0px 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 55%;
+    width: 65%;
 }
 
 .card {
@@ -24,7 +24,7 @@
 }
 
 .imageHolder img{
-    width: 110%;
+    width: 120%;
 }
 
 .sectionHolder {
@@ -33,11 +33,12 @@
     height: 100%;
 }
 
-.sectionHeader {
-
+.sectionHolderRow {
+    justify-content: space-around;
+    height: 100%;
 }
 
-.sectionHeader h5{
+.sectionHeader h4{
     font-weight: 700 !important;
     line-height: 1.5;
     color: hsl(217, 19%, 35%)
@@ -55,4 +56,25 @@
 .authImageHolder img{
     width: 100%;
     border-radius: 50%;
+}
+
+.infoHeader h6{
+    font-weight: 700 !important;
+    color: hsl(217, 19%, 35%)
+}
+
+.infoDate p {
+    font-size: 16px;
+    color: hsl(212, 23%, 69%);
+}
+
+.infoShareImg {
+    background-color: hsl(210, 46%, 95%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.infoShareImg img {
+    width: 50%;
 }
