@@ -9,22 +9,17 @@
 
 .cardHolder {
     border-radius: 10px;
-    overflow: hidden;
     font-weight: 400;
     margin: 0px 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 65%;
+    max-width: 936px;
 }
-
-.card {
-}
-
 .imageHolder {
     max-height: 528px;
 }
 
 .imageHolder img{
-    width: 120%;
+    width: 123%;
 }
 
 .sectionHolder {
@@ -49,13 +44,21 @@
     color: hsl(214, 17%, 51%);
 }
 
-.authSection {
-    
+.authImageHolder {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .authImageHolder img{
     width: 100%;
     border-radius: 50%;
+}
+
+.authInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .infoHeader h6{
@@ -73,8 +76,39 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .infoShareImg img {
     width: 50%;
+}
+
+.socialMediaHolder {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    top: -67px;
+    right: -25%;
+}
+
+.socialMediaHolderShowHide {
+    display: none;
+}
+
+.socialMedia {
+    display: flex;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+@media (max-width: 993px) {
+    .cardHolder {
+        overflow: hidden;
+    }
+    .imageHolder img{
+        width: 100%;
+    }
 }

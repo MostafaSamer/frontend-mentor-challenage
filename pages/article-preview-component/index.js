@@ -1,8 +1,11 @@
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import Head from 'next/head'
 import styles from '../../styles/article-preview-component.module.css'
 
 const WebDesginChallenge = function () {
+
+    const [ShowSocial, SetShowSocial] = useState(false);
+
     return (
         <Fragment>
             <Head>
@@ -15,12 +18,12 @@ const WebDesginChallenge = function () {
                 <div className={styles.cardHolder}>
                     <div className={styles.card}>
                         <div className="row m-0">
-                            <div className="col-md-5 col-12 p-0">
+                            <div className="col-lg-5 col-12 p-0">
                                 <div className={styles.imageHolder}>
                                     <img src="/images/article-preview-component/drawers.jpg" />
                                 </div>
                             </div>
-                            <div className="col-md-7 col-12 p-0">
+                            <div className="col-lg-7 col-12 p-0">
                                 <div className={styles.sectionHolder}>
                                     <div className={styles.sectionHolderRow + ' row m-0'}>
                                         <div className="col-12 p-0 m-0 mb-3">
@@ -38,19 +41,43 @@ const WebDesginChallenge = function () {
                                             </div>
                                         </div>
                                         <div className="col-12 p-0 m-0">
+                                            <div 
+                                            style={!ShowSocial? {display: 'none'} : {}}
+                                            className={styles.socialMediaHolder}>
+                                                <div className={styles.socialMedia}>
+                                                    <div className='mx-3'>
+                                                        <p className='m-0' style={{letterSpacing: "5px"}}>SHARE</p>
+                                                    </div>
+                                                    <div className='mx-2' style={{cursor: 'pointer'}}>
+                                                        <img src='/images/article-preview-component/icon-facebook.svg'/>
+                                                    </div>
+                                                    <div className='mx-2' style={{cursor: 'pointer'}}>
+                                                        <img src='/images/article-preview-component/icon-twitter.svg'/>
+                                                    </div>
+                                                    <div className='mx-2' style={{cursor: 'pointer'}}>
+                                                        <img src='/images/article-preview-component/icon-pinterest.svg'/>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div className={styles.authSection + " mt-3"}>
                                                 <div className='row'>
                                                     <div className='col-2'>
                                                         <div className={styles.authImageHolder}>
-                                                            <img src="/images/article-preview-component/avatar-michelle.jpg"/>
+                                                            <img src="/images/article-preview-component/avatar-michelle.jpg" />
                                                         </div>
                                                     </div>
                                                     <div className='col-8'>
-                                                        <div className={styles.infoHeader}><h6>Michelle Appleton</h6></div>
-                                                        <div className={styles.infoDate}><p>28 Jun 2020</p></div>
+                                                        <div className={styles.authInfo}>
+                                                            <div>
+                                                                <div className={styles.infoHeader}><h6>Michelle Appleton</h6></div>
+                                                                <div className={styles.infoDate + ' m-0'}><p>28 Jun 2020</p></div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div className='col-2'>
-                                                        <div className={styles.infoShareImg + ' d-flex justify-content-center align-items-center'}>
+                                                        <div
+                                                        onClick={() => { SetShowSocial(!ShowSocial) }}
+                                                        className={styles.infoShareImg + ' d-flex justify-content-center align-items-center'}>
                                                             <img src="/images/article-preview-component/icon-share.svg" />
                                                         </div>
                                                     </div>
