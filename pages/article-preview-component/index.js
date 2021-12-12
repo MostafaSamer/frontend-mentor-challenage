@@ -61,20 +61,20 @@ const WebDesginChallenge = function () {
                                             </div>
                                             <div className={styles.authSection + " mt-3"}>
                                                 <div className='row'>
-                                                    <div className='col-2'>
+                                                    <div className='col-3'>
                                                         <div className={styles.authImageHolder}>
                                                             <img src="/images/article-preview-component/avatar-michelle.jpg" />
                                                         </div>
                                                     </div>
-                                                    <div className='col-8'>
+                                                    <div className='col-7 p-0'>
                                                         <div className={styles.authInfo}>
                                                             <div>
                                                                 <div className={styles.infoHeader}><h6>Michelle Appleton</h6></div>
-                                                                <div className={styles.infoDate + ' m-0'}><p>28 Jun 2020</p></div>
+                                                                <div className={styles.infoDate + ' m-0'}><p className='m-0'>28 Jun 2020</p></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className='col-2'>
+                                                    <div className='col-2 p-0 d-flex align-items-center'>
                                                         <div
                                                         onClick={() => { SetShowSocial(!ShowSocial) }}
                                                         className={styles.infoShareImg + ' d-flex justify-content-center align-items-center'}>

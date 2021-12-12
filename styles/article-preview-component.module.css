@@ -51,7 +51,7 @@
 }
 
 .authImageHolder img{
-    width: 100%;
+    width: 65%;
     border-radius: 50%;
 }
 
@@ -73,14 +73,14 @@
 
 .infoShareImg {
     background-color: hsl(210, 46%, 95%);
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .infoShareImg img {
-    width: 50%;
+    width: 40%;
 }
 
 .socialMediaHolder {
@@ -109,6 +109,19 @@
         overflow: hidden;
     }
     .imageHolder img{
+        width: 100%;
+    }
+    .sectionHolder {
+        padding: 30px 39px;
+    }
+
+    .sectionHeader h4{
+        font-size: 15px;
+    }
+    .sectionPara p {
+        font-size: 13px;
+    }
+    .authImageHolder img{
         width: 100%;
     }
 }
