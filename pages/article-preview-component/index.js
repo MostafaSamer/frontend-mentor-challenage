@@ -34,9 +34,9 @@ const WebDesginChallenge = function () {
                                         <div className="col-12 p-0 m-0 mb-3">
                                             <div className={styles.sectionPara}>
                                                 <p className="m-0">
-                                                    Ever been ln a room and felt like something was missing?
+                                                    {`Ever been ln a room and felt like something was missing?
                                                     Perhaps it felt slightly bare and uninviting. I've got some
-                                                    simple tips to help you make any room feel complete.
+                                                    simple tips to help you make any room feel complete.`}
                                                 </p>
                                             </div>
                                         </div>
