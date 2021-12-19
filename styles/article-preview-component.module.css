@@ -1,0 +1,127 @@
+.background {
+    background-color: hsl(210, 46%, 95%);
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.cardHolder {
+    border-radius: 10px;
+    font-weight: 400;
+    margin: 0px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 936px;
+}
+.imageHolder {
+    max-height: 528px;
+}
+
+.imageHolder img{
+    width: 123%;
+}
+
+.sectionHolder {
+    padding: 40px 50px;
+    background-color: white;
+    height: 100%;
+}
+
+.sectionHolderRow {
+    justify-content: space-around;
+    height: 100%;
+}
+
+.sectionHeader h4{
+    font-weight: 700 !important;
+    line-height: 1.5;
+    color: hsl(217, 19%, 35%)
+}
+
+.sectionPara p {
+    font-size: 16px;
+    color: hsl(214, 17%, 51%);
+}
+
+.authImageHolder {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.authImageHolder img{
+    width: 65%;
+    border-radius: 50%;
+}
+
+.authInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.infoHeader h6{
+    font-weight: 700 !important;
+    color: hsl(217, 19%, 35%)
+}
+
+.infoDate p {
+    font-size: 16px;
+    color: hsl(212, 23%, 69%);
+}
+
+.infoShareImg {
+    background-color: hsl(210, 46%, 95%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.infoShareImg img {
+    width: 40%;
+}
+
+.socialMediaHolder {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    top: -67px;
+    right: -25%;
+}
+
+.socialMediaHolderShowHide {
+    display: none;
+}
+
+.socialMedia {
+    display: flex;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+@media (max-width: 993px) {
+    .cardHolder {
+        overflow: hidden;
+    }
+    .imageHolder img{
+        width: 100%;
+    }
+    .sectionHolder {
+        padding: 30px 39px;
+    }
+
+    .sectionHeader h4{
+        font-size: 15px;
+    }
+    .sectionPara p {
+        font-size: 13px;
+    }
+    .authImageHolder img{
+        width: 100%;
+    }
+}
