@@ -19,7 +19,7 @@ const WebDesginChallenge = function () {
                                 <img src="/images/base-apparel-coming-soon/logo.svg" />
                             </div>
                             <div className={styles.leftSide__mid}>
-                                <div className={styles.header}>
+                                <div className={styles.header + ' mb-3'}>
                                     <h2>
                                         <span className={styles.header__we}>
                                             WE'RE
@@ -29,11 +29,25 @@ const WebDesginChallenge = function () {
                                     </h2>
                                 </div>
                                 <div className={styles.para}>
-                                    <p>
+                                    <p className='m-0'>
                                         Hello fellow shoopers! We're currently building our new
                                         fashion store. Add your email below to stay up-to-date with
                                         announcements and our launch deals.
                                     </p>
+                                </div>
+                            </div>
+                            <div className={styles.emailHolder}>
+                                <div className={styles.email}>
+                                    <input 
+                                    className={styles.errorInput}
+                                    placeholder='Email Address'
+                                    />
+                                    <img />
+                                </div>
+                                <div className={styles.error}>
+                                {true && (
+                                    <p>Please provide a valid email</p>
+                                )}
                                 </div>
                             </div>
                         </div>
