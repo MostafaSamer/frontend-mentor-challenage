@@ -53,7 +53,7 @@ const WebDesginChallenge = function () {
                     </div>
                     <div className='col-5 p-0'>
                         <div className={styles.ImageHolder + ' h-100'}>
-                            <img className='h-100' src="/images/base-apparel-coming-soon/hero-desktop.jpg"/>
+                            <img className='h-100 w-100' src="/images/base-apparel-coming-soon/hero-desktop.jpg"/>
                         </div>
                     </div>
                 </div>
