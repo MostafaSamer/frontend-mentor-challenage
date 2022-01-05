@@ -22,7 +22,7 @@ const WebDesginChallenge = function () {
                                 <div className={styles.header + ' mb-3'}>
                                     <h2>
                                         <span className={styles.header__we}>
-                                            WE'RE
+                                            {"WE'RE"}
                                         </span> <br />
                                         COMING <br />
                                         SOON
@@ -30,9 +30,9 @@ const WebDesginChallenge = function () {
                                 </div>
                                 <div className={styles.para}>
                                     <p className='m-0'>
-                                        Hello fellow shoopers! We're currently building our new
+                                        {`Hello fellow shoopers! We're currently building our new
                                         fashion store. Add your email below to stay up-to-date with
-                                        announcements and our launch deals.
+                                        announcements and our launch deals.`}
                                     </p>
                                 </div>
                             </div>
@@ -42,12 +42,11 @@ const WebDesginChallenge = function () {
                                     className={styles.errorInput}
                                     placeholder='Email Address'
                                     />
-                                    <img />
-                                </div>
-                                <div className={styles.error}>
-                                {true && (
-                                    <p>Please provide a valid email</p>
-                                )}
+                                    <div className={styles.sbmitButton}>
+                                        <button>
+                                            <img src="/images/base-apparel-coming-soon/icon-arrow.svg"/>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
