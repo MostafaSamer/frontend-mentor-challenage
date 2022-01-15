@@ -1,5 +1,5 @@
 .background {
-    background-color: hsl(210, 46%, 95%);
+    background-color: hsl(226, 43%, 10%);
     height: 100% !important;
     display: flex;
     justify-content: center;
@@ -8,13 +8,25 @@
 }
 
 .cardHolder {
-    border-radius: 10px;
-    font-weight: 400;
-    margin: 0px 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     max-width: 936px;
 }
 
-.card {
-    
+.bigCard {
+}
+
+.bigCardUpper {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 25px;
+}
+
+.profileImgHolder img {
+    width: 62px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.bigCardBlow {
+    background-color: hsl(235, 46%, 20%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
