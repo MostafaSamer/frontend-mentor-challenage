@@ -1,0 +1,30 @@
+.background {
+    background-color:  #F9FAFE;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardHolder {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    margin: 0px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 936px;
+}
+
+.card {
+    padding: 30px;
+}
+
+.headerContainer {
+    margin-top: 10px
+}
+
+.leftHeader p {
+    font-weight: 800 !important;
+    font-size: 20px;
+}
