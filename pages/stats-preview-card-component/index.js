@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import Head from 'next/head'
-import styles from '../../styles/Stats-preview-card-component.module.css'
+import styles from '../../styles/stats-preview-card-component.module.css'
 
 const WebDesginChallenge = function () {
     return (
@@ -45,8 +45,8 @@ const WebDesginChallenge = function () {
                             </div>
                         </div>
                         <div className="col-lg-6 col-12 p-0">
-                            <img className={styles.displayDesktop} width="100%" height="100%" src="/images/Stats-preview-card-component/image-header-desktop.jpg" />
-                            <img className={styles.displayMobile} width="100%" height="100%" src="/images/Stats-preview-card-component/image-header-mobile.jpg" />
+                            <img className={styles.displayDesktop} width="100%" height="100%" src="/images/stats-preview-card-component/image-header-desktop.jpg" />
+                            <img className={styles.displayMobile} width="100%" height="100%" src="/images/stats-preview-card-component/image-header-mobile.jpg" />
                             <div className={styles.imageCover + " w-100 h-100"}></div>
                         </div>
                     </div>
