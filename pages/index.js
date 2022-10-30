@@ -130,7 +130,7 @@ export default function Home() {
                     </div>
                   </Link>
                   <div className={styles.projectsolutionURL}>
-                    <a href={project.solutionURL} target="_blank">
+                    <a href={project.solutionURL} target="_blank"  rel="noreferrer">
                       See My Solution
                     </a>
                   </div>
